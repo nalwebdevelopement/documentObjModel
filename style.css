@@ -14,3 +14,34 @@ td
           width:250px;
           padding: 20px;
         }
+
+/* Conata us html style */
+
+.app
+{
+    display:inline-block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 50px;
+    width:50%;
+    height:40px;
+    margin-left: 100px;
+    
+}
+.myForm
+{
+   
+    justify-content:center;
+    align-items: center;
+    display:inline-block;
+    background-color: pink;
+    margin-left: 10px;
+    padding: 20px;
+
+}
+.input1,.input2,.input3,.input4
+{
+    padding: 10px;
+}
+

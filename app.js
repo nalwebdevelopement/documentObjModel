@@ -63,23 +63,12 @@ function todo()
 //call the two fucntions-------------------------------------------
 
 
-
-
 function createtable1()
 {
 
 const app = document.getElementById("table");
 const table = document.createElement("tablebody");
 const tr = document.createElement("tr");
-//const td = document.createElement("td");
-        //let x = document.createTextNode(v);
-        // for (let c = 0; c < 2; c++) {
-        //     const td = document.createElement("td");
-        //     let x = document.createTextNode(v);
-        //     td.appendChild(x);
-        //     tr.appendChild(td);
-        // }
-//tr.appendChild(td)
 const td = document.createElement("td");
 let x = document.createTextNode(v);
 td.appendChild(x);
@@ -92,6 +81,12 @@ tr.appendChild(td1);
  table.appendChild(tr);
 app.appendChild(table);
 }
+    
+function openContactus()
+{
+    window.open("https://www.w3schools.com");
+}
+
 
 
 
