@@ -81,12 +81,11 @@ tr.appendChild(td1);
  table.appendChild(tr);
 app.appendChild(table);
 }
-    
+
 function openContactus()
 {
     window.open("https://www.w3schools.com");
 }
-
 
 
 
