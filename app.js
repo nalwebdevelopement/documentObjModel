@@ -2,7 +2,7 @@
 
 const idhead = document.getElementById("heading");
 console.log(idhead);
-idhead.textContent = "Document Object Model";
+idhead.textContent = "Add the firstname and lastname in table";
 idhead.style.color = "Black";
 idhead.style.margin = "10px";
 idhead.style.textAlign = "center";
